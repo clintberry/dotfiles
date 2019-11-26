@@ -2,7 +2,6 @@
 
 git clone into ~/.dotfiles
 
-run ~/.dotfiles/setup.sh
+run `make all`
 
-enjoy...
 
