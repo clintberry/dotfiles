@@ -43,5 +43,6 @@ cask "Dropbox"
 cask "keybase"
 cask "firefox"
 cask "docker"
+cask "gpg-suite"
 
 
