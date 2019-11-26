@@ -1,7 +1,7 @@
 DOTFILES="${HOME}/.dotfiles"
 SCRIPTS="${DOTFILES}/scripts"
 
-all: setup brew appstore
+all: setup brew appstore vscode ohmyzsh
 
 setup:
 	xcode-select --install
@@ -19,6 +19,9 @@ appstore:
 
 vscode:
 	$(SCRIPTS)/vscode.sh
+
+ohmyzsh:
+	$(SCRIPTS)/ohmyzsh.sh
 
 
 
