@@ -88,6 +88,8 @@ export PATH=$GOPATH/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 export GPG_TTY=$(tty)
 
+unsetopt share_history
+
 
 alias kc="kubectl"
 
