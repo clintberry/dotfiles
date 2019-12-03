@@ -7,5 +7,8 @@ ln -s $HOME/.dotfiles/VSCode/snippets/ $HOME/Library/Application\ Support/Code/U
 
 code --install-extension vscodevim.vim
 code --install-extension codezombiech.gitignore
+code --install-extension zxh404.vscode-proto3
+code --install-extension ms-vscode.go
+
 
 

@@ -1,3 +1,4 @@
 {
-    "terminal.integrated.shell.osx": "/bin/zsh"
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "go.useLanguageServer": true
 }

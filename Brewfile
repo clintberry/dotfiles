@@ -23,6 +23,8 @@ brew "node"
 # Utilities
 brew "tmux"
 brew "mas"
+brew "protobuf"
+brew "protoc-gen-go"
 
 
 # Applications
@@ -44,5 +46,6 @@ cask "keybase"
 cask "firefox"
 cask "docker"
 cask "gpg-suite"
+cask "spotify"
 
 
