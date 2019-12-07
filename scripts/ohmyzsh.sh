@@ -8,3 +8,5 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
