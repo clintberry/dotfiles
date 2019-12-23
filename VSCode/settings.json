@@ -1,4 +1,6 @@
 {
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true,
 }

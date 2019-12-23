@@ -5,6 +5,7 @@
 # tap "caskroom/versions"
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "homebrew/cask-fonts"
 
 # Core
 brew "openssl"
@@ -47,5 +48,6 @@ cask "firefox"
 cask "docker"
 cask "gpg-suite"
 cask "spotify"
+cask "font-fira-code"
 
 
