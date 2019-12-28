@@ -86,7 +86,7 @@ export GOPATH=$HOME/go
 export GOPRIVATE=weavelab.xyz
 export PATH=$GOPATH/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-export GPG_TTY=$(tty)
+export GPG_TTY="/dev/ttys010"
 
 unsetopt share_history
 
