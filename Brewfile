@@ -26,6 +26,7 @@ brew "tmux"
 brew "mas"
 brew "protobuf"
 brew "protoc-gen-go"
+brew "hugo"
 
 
 # Applications
