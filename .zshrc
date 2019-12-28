@@ -86,7 +86,6 @@ export GOPATH=$HOME/go
 export GOPRIVATE=weavelab.xyz
 export PATH=$GOPATH/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-export GPG_TTY="/dev/ttys010"
 
 unsetopt share_history
 
@@ -127,3 +126,5 @@ if [ -f '/Users/clint/Library/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/c
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/clint/Library/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/clint/Library/google-cloud-sdk/completion.zsh.inc'; fi
+
+export GPG_TTY=`tty`
