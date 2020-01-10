@@ -27,6 +27,7 @@ brew "mas"
 brew "protobuf"
 brew "protoc-gen-go"
 brew "hugo"
+brew "derailed/k9s/k9s"
 
 
 # Applications
