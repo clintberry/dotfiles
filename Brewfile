@@ -51,5 +51,6 @@ cask "docker"
 cask "gpg-suite"
 cask "spotify"
 cask "font-fira-code"
+cask "wireshark"
 
 
