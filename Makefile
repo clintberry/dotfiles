@@ -4,7 +4,7 @@ SCRIPTS="${DOTFILES}/scripts"
 all: setup brew appstore vscode ohmyzsh
 
 setup:
-	xcode-select --install
+	# xcode-select --install
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	brew install cask
 
