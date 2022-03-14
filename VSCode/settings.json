@@ -1,8 +1,9 @@
 {
     "terminal.integrated.shell.osx": "/bin/zsh",
     "go.useLanguageServer": true,
-    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontFamily": "MonoLisa",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "window.zoomLevel": 0
+    "terminal.integrated.fontFamily": "MonoLisa",
+    "window.zoomLevel": 0,
+    "go.toolsManagement.autoUpdate": true
 }
