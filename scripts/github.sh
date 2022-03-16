@@ -1,5 +1,11 @@
-echo "Generate and add ssh key"
+echo "Set git default settings"
 read -p "Enter github email : " email
+# Set default push behavior to match branch name automatically
+git config --global push.default current
+# Set default git email
+git config --global user.email $email
+git config --global user.name "Clint Berry"
+echo "Generate and add ssh key"
 echo "Using email $email"
 echo "Generating key"
 ssh-keygen -t rsa -b 4096 -C "$email"
