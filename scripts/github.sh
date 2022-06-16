@@ -12,6 +12,7 @@ echo "Using email $email"
 echo "Generating key"
 ssh-keygen -t rsa -b 4096 -C "$email"
 ssh-add ~/.ssh/id_rsa
+ssh-add --apple-use-keychain ~/.ssh/id_rsa
 gh auth login # This auto adds your ssh key as part of its process
 
 echo "Generate GPG key"

@@ -92,6 +92,11 @@ unsetopt share_history
 
 alias kc="kubectl"
 
+ssh-add -l > /dev/null
+if [ $? -ne 0 ]; then
+  ssh-add -A > /dev/null
+fi
+
 
 
 # export MANPATH="/usr/local/man:$MANPATH"

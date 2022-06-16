@@ -23,6 +23,9 @@ vscode:
 ohmyzsh:
 	$(SCRIPTS)/ohmyzsh.sh
 
+ssh:
+	$(SCRIPTS)/ssh.sh
+
 
 
 

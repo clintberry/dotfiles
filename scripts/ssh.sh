@@ -1,0 +1,1 @@
+ln -s $HOME/.dotfiles/.ssh/config $HOME/.ssh/config
