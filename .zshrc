@@ -94,7 +94,7 @@ alias kc="kubectl"
 
 ssh-add -l > /dev/null
 if [ $? -ne 0 ]; then
-  ssh-add -A > /dev/null
+  ssh-add ~/.ssh/id_ed25519 > /dev/null
 fi
 
 
