@@ -8,10 +8,12 @@ ln -s $HOME/.dotfiles/VSCode/snippets/ $HOME/Library/Application\ Support/Code/U
 code --install-extension vscodevim.vim
 code --install-extension codezombiech.gitignore
 code --install-extension zxh404.vscode-proto3
-code --install-extension ms-vscode.go
+code --install-extension golang.go
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension adamhartford.vscode-base64
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension Llam4u.nerdtree
+code --install-extension eriklynd.json-tools
 
 
 

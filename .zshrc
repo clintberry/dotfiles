@@ -85,8 +85,9 @@ source $ZSH/oh-my-zsh.sh
 export GOPATH=$HOME/go
 export GOPRIVATE=weavelab.xyz
 export PATH=$GOPATH/bin:$PATH
-export PATH="/usr/local/sbin:$PATH"
-
+export PATH="$HOME/Library/Google/google-cloud-sdk/bin:usr/local/sbin:$PATH"
+export PATH="$HOME/Library/flutter/bin:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 unsetopt share_history
 
 
@@ -122,14 +123,19 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias python=/usr/bin/python3
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+export GPG_TTY=`tty`
+
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/clint/Library/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/clint/Library/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/clint/Library/Google/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/clint/Library/Google/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/clint/Library/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/clint/Library/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/clint/Library/Google/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/clint/Library/Google/google-cloud-sdk/completion.zsh.inc'; fi
 
-export GPG_TTY=`tty`
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
