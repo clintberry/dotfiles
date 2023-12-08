@@ -4,7 +4,6 @@
     "editor.fontFamily": "MonoLisa",
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "MonoLisa",
-    "window.zoomLevel": 0,
     "go.toolsManagement.autoUpdate": true,
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
@@ -14,7 +13,7 @@
         "markdown": false
     },
     "workbench.iconTheme": "Monokai Pro Icons",
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "GitHub Dark",
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
@@ -46,6 +45,9 @@
             "after": ["<Esc>"]
         }
     ],
+    "vim.handleKeys": {
+        "<C-n>": false,
+    },
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -56,7 +58,7 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "redhat.telemetry.enabled": false,
     "[xml]": {
@@ -64,5 +66,10 @@
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "explorer.compactFolders": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "nxConsole.showNodeVersionOnStartup": false
 }

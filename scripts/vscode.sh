@@ -14,6 +14,7 @@ code --install-extension adamhartford.vscode-base64
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension Llam4u.nerdtree
 code --install-extension eriklynd.json-tools
+code --install-extension GitHub.github-vscode-theme
 
 
 
