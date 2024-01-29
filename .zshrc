@@ -76,14 +76,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew docker golang node tmux vscode)
+plugins=(git brew docker golang node tmux vscode vi-mode kubectl fluxcd)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 export GOPATH=$HOME/go
-export GOPRIVATE=weavelab.xyz
+export GOPRIVATE=github.com/kollalabs
 export PATH=$GOPATH/bin:$PATH
 export PATH="$HOME/Library/Google/google-cloud-sdk/bin:usr/local/sbin:$PATH"
 export PATH="$HOME/Library/flutter/bin:$PATH"
