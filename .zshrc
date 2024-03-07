@@ -91,8 +91,6 @@ export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 unsetopt share_history
 
 
-alias kc="kubectl"
-
 ssh-add -l > /dev/null
 if [ $? -ne 0 ]; then
   ssh-add ~/.ssh/id_ed25519 > /dev/null
