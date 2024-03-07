@@ -72,5 +72,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "nxConsole.showNodeVersionOnStartup": false,
-    "json-to-go.inputSource": "clipboard"
+    "json-to-go.io.input": "clipboard",
+    "json-to-go.io.output": "clipboard"
 }
