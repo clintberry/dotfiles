@@ -1,4 +1,7 @@
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Check for Oh My Zsh and install if we don't have it
+if test ! $(which omz); then
+  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+fi
 
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 

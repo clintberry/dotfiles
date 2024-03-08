@@ -6,16 +6,18 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "homebrew/cask-fonts"
+tap 'homebrew/cask-fonts'
 
 # Core
+brew "mackup"
 brew "openssl"
 brew "git"
-brew "git-lfs"
-brew "fish"
 brew "gnupg"
 brew "wget"
 brew "curl"
 brew "coreutils"
+brew 'bash' # Latest Bash version
+brew 'jq'
 
 # Languages
 brew "go"
@@ -27,22 +29,22 @@ brew "mas"
 brew "protobuf"
 brew "protoc-gen-go"
 brew "hugo"
-brew "derailed/k9s/k9s"
 brew "gh"
+cask "google-cloud-sdk"
 
 
 # Applications
-# cask "1password"
+cask "1password"
 cask "adobe-creative-cloud"
-cask "alfred"
+cask "raycast"
 cask "authy"
 cask "bartender"
 cask "google-chrome"
 cask "iterm2"
-# cask "postman"
-# cask "slack"
+cask "postman"
+cask "slack"
 cask "visual-studio-code"
-cask "Dropbox"
+# cask "Dropbox"
 cask "keybase"
 cask "firefox"
 cask "docker"
@@ -52,5 +54,13 @@ cask "font-fira-code"
 cask "wireshark"
 cask "notion"
 cask "loom"
+cask "warp"
+cask "orbstack"
+cask "notion-calendar"
 
-
+# Fonts
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+cask 'font-fira-code'

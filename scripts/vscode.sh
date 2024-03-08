@@ -15,6 +15,13 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension Llam4u.nerdtree
 code --install-extension eriklynd.json-tools
 code --install-extension GitHub.github-vscode-theme
+code --install-extension donjayamanne.git-extension-pack
+code --install-extension github.vscode-github-actions
+code --install-extension GitHub.codespaces
+code --install-extension GitHub.copilot
+code --install-extension GitHub.copilot-chat
+code --install-extension mikestead.dotenv
+
 
 
 
