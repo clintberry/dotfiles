@@ -56,8 +56,9 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/the
 
 ln -s $DOTFILES/.p10k.zsh $HOME/.p10k.zsh
 
-##### MacOS settings
-/bin/sh -c $DOTFILES/scripts/macos.sh
+# Symlink the Mackup config file to the home directory
+ln -s ./.mackup.cfg $HOME/.mackup.cfg
+mackup restore
 
 
 ##### VSCode stuff
@@ -78,4 +79,7 @@ code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-chat
 code --install-extension mikestead.dotenv
 
+
+##### MacOS settings - run last
+/bin/sh -c $DOTFILES/scripts/macos.sh
 
