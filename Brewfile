@@ -35,7 +35,6 @@ cask "google-cloud-sdk"
 
 # Applications
 cask "1password"
-cask "adobe-creative-cloud"
 cask "raycast"
 cask "authy"
 cask "bartender"
@@ -61,6 +60,7 @@ cask "notion-calendar"
 # Fonts
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
 cask 'font-fira-code'
+
+# Requires sudo access so last
+cask "adobe-creative-cloud"
