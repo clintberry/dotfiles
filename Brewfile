@@ -31,6 +31,7 @@ brew "protoc-gen-go"
 brew "hugo"
 brew "gh"
 cask "google-cloud-sdk"
+brew "tailscale"
 
 
 # Applications
@@ -56,6 +57,9 @@ cask "loom"
 cask "warp"
 cask "orbstack"
 cask "notion-calendar"
+cask "linear-linear"
+cask "microsoft-remote-desktop"
+
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
