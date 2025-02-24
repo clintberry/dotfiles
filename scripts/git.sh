@@ -7,6 +7,7 @@ git config --global init.defaultBranch main
 git config --global user.email $email
 git config --global user.name "Clint Berry"
 git config --global core.editor "code --wait"
+git config --global --type bool push.autoSetupRemote true
 
 echo "Generating a new SSH key for GitHub..."
 
